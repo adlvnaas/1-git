@@ -1,0 +1,40 @@
+main{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+position: relative;
+}
+.sidebar {
+position: sticky;
+top: 0;
+left: 0%;
+width: 18;
+height: 100vh;
+background-color: #191922;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.main-header-wrapper {
+    width: 82%;
+    position: relative;
+}
+header { 
+    position: sticky;
+    top: 0;
+    height: 50%;
+    background-color: #191922;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 100px;
+}
+main {
+    background-color: black;
+    color: white;
+}
